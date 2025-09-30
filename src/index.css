@@ -1,0 +1,29 @@
+/* Nav link styling */
+.nav-link {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: #333333; /* default color */
+  transition: color 0.3s; /* smooth hover */
+}
+
+.nav-link:hover {
+  color: #e63946; /* tomato red on hover */
+}
+/* Apply fonts globally */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: #1d1d1d;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #555;
+}
